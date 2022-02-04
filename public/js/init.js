@@ -6,7 +6,7 @@ const html_cargando = `<div class="modal-body text-center">
 </div>`;
 let xhr;
 
-$("#modal").on('show.bs.modal', function (event) {
+$("#modalApp").on('show.bs.modal', function (event) {
   const button = event.relatedTarget;
   const modal = this;
   const url = $(button).data('url');
@@ -33,7 +33,7 @@ $("#modal").on('show.bs.modal', function (event) {
   }
   
 });
-$("#modal").on('show.bs.modal', function (event) {
+$("#modalApp").on('show.bs.modal', function (event) {
     $(this).find(".modal-content").html(html_cargando);
 });
 

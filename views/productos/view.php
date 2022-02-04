@@ -8,7 +8,7 @@
             </button>
             <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#modal" data-size="modal-lg" data-url="?c=Productos&a=Edit&id=<?= $producto->id ?>">Editar</a>
+                    <a class="dropdown-item" href="javascript:;" data-bs-toggle="modal" data-bs-target="#modalApp" data-size="modal-lg" data-url="?c=Productos&a=Edit&id=<?= $producto->id ?>">Editar</a>
                 </li>
                 <li>
                     <a class="dropdown-item" href="?c=Productos&a=Delete&id=<?= $producto->id ?>">Eliminar</a>
