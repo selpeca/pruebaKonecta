@@ -17,5 +17,4 @@ define('DATABASE', 'prueba_konecta_db');
 /////////////////////////////////////
 
 define('FOLDER_PATH', '/pruebaKonecta');
-define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('PUBLIC_FOLDER', FOLDER_PATH . '/public/');

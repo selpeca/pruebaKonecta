@@ -70,7 +70,7 @@ class Venta{
 			$stm = $this->pdo->prepare($sql);
 			$stm->execute();
  
-			return $stm->fetchAll(PDO::FETCH_OBJ)[0];
+			return $stm->fetchAll(PDO::FETCH_OBJ);
 		} catch(Exception $e){
 			die($e->getMessage());
 		}
@@ -93,7 +93,7 @@ class Venta{
 			$stm = $this->pdo->prepare($sql);
 			$stm->execute();
  
-			return $stm->fetchAll(PDO::FETCH_OBJ)[0];
+			return $stm->fetchAll(PDO::FETCH_OBJ);
 		} catch(Exception $e){
 			die($e->getMessage());
 		}

@@ -12,7 +12,7 @@
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
                         <p>
-                            <a href="?c=Productos&a=View&id=<?= $max_stock->id ?>"><?= $max_stock->nombre ?></a> (<?= $max_stock->stock ?> unids)
+                            <a href="?c=Productos&a=View&id=<?= $max_stock[0]->id ?>"><?= $max_stock[0]->nombre ?></a> (<?= $max_stock[0]->stock ?> unids)
                         </p>
                     </blockquote>
                 </div>
@@ -26,7 +26,7 @@
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
                         <p>
-                            <a href="?c=Productos&a=View&id=<?= $mas_vendido->id ?>"><?= $mas_vendido->nombre ?></a> (<?= $mas_vendido->cantidad ?> veces)
+                            <a href="?c=Productos&a=View&id=<?= $mas_vendido[0]->id ?>"><?= $mas_vendido[0]->nombre ?></a> (<?= $mas_vendido[0]->cantidad ?> veces)
                         </p>
                     </blockquote>
                 </div>
